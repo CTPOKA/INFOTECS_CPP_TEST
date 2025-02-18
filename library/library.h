@@ -31,10 +31,10 @@ namespace lib
 		 */
 		LIBRARY_API int calcSumOfDigits(const std::string &str);
 		/**
-		 * @brief Проверяет, что длина числа больше 2 и число делится ли число на 32.
+		 * @brief Проверяет, что длина числа больше 2 и делится ли число на 32.
 		 *
 		 * @param num Число в формате строки.
-		 * @return true Если длина числа больше 2 и число делится ли число на 32.
+		 * @return true Если длина числа больше 2 и число делится на 32.
 		 * @return false В противном случае.
 		 */
 		LIBRARY_API bool isDivisibleBy32(const std::string &str);
