@@ -41,12 +41,12 @@ int lib::calcSumOfDigits(const std::string& str) {
 }
 
 bool lib::isDivisibleBy32(const std::string& num) {
-	if (num.size() < 2)
+	if (num.size() <= 2)
 		return false;
 	
 	std::string lastDigits = num.size() <= 5 ? num : num.substr(num.size() - 5);
-
-    int lastNumber = std::stoi(lastDigits);
+	
+	int lastNumber = std::stoi(lastDigits);
 
 	return lastNumber % 32 == 0;
 }
